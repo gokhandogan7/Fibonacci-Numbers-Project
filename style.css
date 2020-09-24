@@ -114,5 +114,8 @@ input::-webkit-inner-spin-button {
         opacity: 0;
         right: 0;
       }
-        
+      
+    #result{
+        transform: translateX(0);
+      }
   }
