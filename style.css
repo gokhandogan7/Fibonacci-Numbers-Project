@@ -93,7 +93,7 @@ input::-webkit-inner-spin-button {
   margin: 0;}
 
   #result{
-    transform: translateX(-13%);
+    transform: translateX(-9%);
   }
 
   @media(max-width:568px){
