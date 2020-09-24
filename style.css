@@ -93,7 +93,7 @@ input::-webkit-inner-spin-button {
   margin: 0;}
 
   #result{
-    transform: translateX(-9%);
+    transform: translateX(0%);
   }
 
   @media(max-width:568px){
@@ -115,6 +115,12 @@ input::-webkit-inner-spin-button {
         right: 0;
       }
       
+      .button span:after {
+        content: none;}
+        
+
+
+
     #result{
         transform: translateX(0);
       }
