@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid white; */
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background-image:  url(./img/fibo2.jpg), url(./img/wp4394767.png) ;
+    background-position: center;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: soft-light;
+    /* padding: 15px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    font-family: 'Kufam', cursive; 
+    color: white;
+    text-align: center; 
+    font-size: 27px;
+    justify-content: center;
+    min-width: 278px;
+}
+#input{
+    width: 60%;
+    height: 40px;
+    margin: 5px;
+    font-size: 27px;
+    font-family: 'Kufam', cursive;    
+}
+
+#btn{
+    width: 30%;
+    height: 5%;
+    margin: 2px;
+    font-size: 18px;
+    font-family: 'Kufam', cursive; 
+    
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;}
+
+  #result{
+    transform: translateX(-13%);
+  }
+
+  @media(max-width:568px){
+    #btn{
+        width: 20%;
+        height: 5%;
+        margin: 2px;
+        font-size: 15px;
+        font-family: 'Kufam', cursive; 
+        padding-left:2%;
+        
+    }
+    .button:hover span {
+        padding-right: 0;
+      }
+      
+      .button:hover span:after {
+        opacity: 0;
+        right: 0;
+      }
+        
+  }
