@@ -17,6 +17,14 @@ body{
     justify-content: center;
 }
 
+#values{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .container{
     font-family: 'Kufam', cursive; 
     color: white;
@@ -36,7 +44,6 @@ body{
 #btn{
     width: 30%;
     height: 5%;
-    margin: 2px;
     font-size: 18px;
     font-family: 'Kufam', cursive; 
     
