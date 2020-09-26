@@ -93,7 +93,7 @@ input::-webkit-inner-spin-button {
   margin: 0;}
 
   #result{
-    transform: translateX(0%);
+    transform: translateX(1%);
   }
 
   @media(max-width:568px){
@@ -101,7 +101,7 @@ input::-webkit-inner-spin-button {
         width: 20%;
         height: 5%;
         margin: 2px;
-        font-size: 16px;
+        font-size: 15px;
         font-family: 'Kufam', cursive; 
         padding-left:2%;
         
