@@ -60,7 +60,7 @@ body{
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin: 4px;
   }
   
   .button span {
@@ -76,7 +76,7 @@ body{
     opacity: 0;
     top: 0;
     right: -20px;
-    transition: 0.6s;
+    transition: 0.5s;
   }
   
   .button:hover span {
