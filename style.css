@@ -45,7 +45,7 @@ body{
     width: 30%;
     height: 5%;
     font-size: 18px;
-    font-family: 'Kufam', cursive; 
+    font-family: 'Kufam', sans-serif; 
     
 }
 .button {
@@ -60,7 +60,7 @@ body{
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 4px;
+    margin: 5px;
   }
   
   .button span {
