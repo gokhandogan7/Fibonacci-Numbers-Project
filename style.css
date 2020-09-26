@@ -84,7 +84,7 @@ body{
   }
   
   .button:hover span:after {
-    opacity: 1;
+    opacity: 0.9;
     right: 0;
   }
 input::-webkit-outer-spin-button,
@@ -93,7 +93,7 @@ input::-webkit-inner-spin-button {
   margin: 0;}
 
   #result{
-    transform: translateX(1%);
+    transform: translateX(0%);
   }
 
   @media(max-width:568px){
