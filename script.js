@@ -3,13 +3,13 @@ const button = document.getElementById("btn");
 const resultt = document.getElementById("result");
 button.addEventListener("click", trigger);
 
-// function trigger() {
-//   if (input.value < 0 || input.value =="") {
-//     resultt.innerHTML = "Check the number!!!";
-//   } else {
-//     fibonacci();
-//   }
-// }
+function trigger() {
+  if (input.value < 0 || input.value =="") {
+    resultt.innerHTML = "Check the number!!!";
+  } else {
+    fibonacci();
+  }
+}
 function trigger() {
   if(input.value =="" ){
     resultt.innerHTML = "undefined";
